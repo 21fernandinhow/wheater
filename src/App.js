@@ -61,8 +61,7 @@ function App() {
           <h4>Mais informações:</h4>
           <ul>
             <li>Temperatura atual: {weather['main']['temp']}°</li>
-            <li>Temperatura máxima: {weather['main']['temp_max']}°</li>
-            <li>Temperatura minima: {weather['main']['temp_min']}°</li>
+            <li>°Pressão: {weather['main']['pressure']}</li>
             <li>Umidade: {weather['main']['humidity']}%</li>
           </ul>
         </section>
