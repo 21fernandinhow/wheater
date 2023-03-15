@@ -61,7 +61,7 @@ function App() {
           <h4>Mais informações:</h4>
           <ul>
             <li>Temperatura atual: {weather['main']['temp']}°</li>
-            <li>°Pressão: {weather['main']['pressure']}</li>
+            <li>Pressão: {weather['main']['pressure']} °</li>
             <li>Umidade: {weather['main']['humidity']}%</li>
           </ul>
         </section>
